@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIVERSÁRIO DO MATHIAS - CONVITE OFICIAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating particles background -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Scanlines effect -->
+    <div class="scanlines"></div>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title glow-text animate-fade-in">ANIVERSÁRIO DO MATHIAS</h1>
+                    <h2 class="hero-subtitle glow-text animate-fade-in" style="animation-delay: 0.3s;">CONVITE OFICIAL</h2>
+                    <p class="hero-tagline neon-text animate-fade-in" style="animation-delay: 0.6s;">
+                        Você não está apenas convidado.<br>
+                        <span class="highlight-text">Você foi escolhido.</span>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Event Details Section -->
+        <section class="event-details">
+            <div class="container">
+                <div class="section-header animate-slide-up" style="animation-delay: 0.9s;">
+                    <span class="section-icon">🎯</span>
+                    <h3 class="section-title">DETALHES DO EVENTO</h3>
+                </div>
+                
+                <div class="details-grid">
+                    <div class="detail-card neon-border animate-slide-up" style="animation-delay: 1.2s;">
+                        <div class="card-content">
+                            <div class="detail-icon">📅</div>
+                            <div class="detail-label">DATA</div>
+                            <div class="detail-value">04/10</div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-card neon-border animate-slide-up" style="animation-delay: 1.4s;">
+                        <div class="card-content">
+                            <div class="detail-icon">🕐</div>
+                            <div class="detail-label">HORA</div>
+                            <div class="detail-value">22:30</div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-card neon-border animate-slide-up" style="animation-delay: 1.6s;">
+                        <div class="card-content">
+                            <div class="detail-icon">🔒</div>
+                            <div class="detail-label">LOCAL</div>
+                            <div class="detail-value">ALTAMENTE<br>CONFIDENCIAL</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coordinates-text animate-fade-in" style="animation-delay: 1.8s;">
+                    <p class="coordinates-message">
+                        Coordenadas serão reveladas apenas aos confirmados. Fique atento.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Confirmation Section -->
+        <section class="confirmation-section">
+            <div class="container">
+                <div class="section-header animate-slide-up" style="animation-delay: 2.0s;">
+                    <span class="section-icon">✅</span>
+                    <h3 class="section-title">CONFIRMAÇÃO DE PRESENÇA</h3>
+                </div>
+                
+                <div class="confirmation-content">
+    <div class="confirmation-button-container animate-scale-in" style="animation-delay: 2.2s;" id="buttonContainer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjPc3st4r7kPgRpQabaUGO0LD_dtxuOQaVjf3UYDgh8DNu4g/viewform?usp=header"
+           target="_blank" rel="noopener noreferrer"
+           class="cyber-btn" id="confirmBtn">
+            <span class="btn-text">CONFIRMAR PRESENÇA</span>
+            <div class="btn-glitch"></div>
+        </a>
+    </div>
+</div>
+
+                    
+                    <div class="confirmation-message hidden" id="confirmationMessage">
+                        <div class="message-content animate-pulse-glow">
+                            <div class="success-icon">✅</div>
+                            <p class="success-text">
+                                Presença confirmada! Fique atento às mensagens para receber as coordenadas secretas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Warning Section -->
+        <section class="warning-section">
+            <div class="container">
+                <div class="section-header animate-slide-up" style="animation-delay: 2.4s;">
+                    <span class="section-icon">⚠️</span>
+                    <h3 class="section-title">AVISO IMPORTANTE</h3>
+                </div>
+                
+                <div class="warning-content animate-fade-in" style="animation-delay: 2.6s;">
+                    <div class="warning-box neon-border-danger">
+                        <p class="warning-text">
+                            Este não é um evento público. Entrada apenas para convidados confirmados. 
+                            Nada de redes sociais. O que acontecer aqui, fica aqui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Matrix-style background elements -->
+    <div class="matrix-rain" id="matrixRain"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
