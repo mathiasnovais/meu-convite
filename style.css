@@ -1044,6 +1044,23 @@ section {
   animation: shimmer 3s ease-in-out infinite;
 }
 
+.cyberpunk-details {
+  color: #00e5ff;
+  font-family: 'Anton', 'Inter', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 8px #00e5ff, 0 0 6px #ff00ea;
+}
+
+.cyberpunk-details span {
+  color: #ff00ea;
+  text-shadow: 0 0 10px #ff00ea, 0 0 4px #00e5ff;
+  font-weight: bold;
+}
+
 @keyframes shimmer {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100%); }
