@@ -1046,19 +1046,23 @@ section {
 
 /* Cole aqui o novo bloco ↓ */
 .cyberpunk-details {
-  color: #00e5ff;
+  color: var(--color-cyan-400, #00ffff);
   font-family: 'Anton', 'Inter', sans-serif;
   font-size: 1.1rem;
   text-align: center;
   margin-top: 16px;
   margin-bottom: 24px;
   letter-spacing: 0.08em;
-  text-shadow: 0 0 8px #00e5ff, 0 0 6px #ff00ea;
+  text-shadow:
+    0 0 3px var(--color-cyan-400, #00ffff),
+    0 0 1px var(--color-white, #ffffff);
 }
 
 .cyberpunk-details span {
-  color: #ff00ea;
-  text-shadow: 0 0 10px #ff00ea, 0 0 4px #00e5ff;
+  color: var(--color-gray-300, #a7a9a9);
+  text-shadow:
+    0 0 2px var(--color-cyan-400, #00ffff),
+    0 0 1px var(--color-white, #fff);
   font-weight: bold;
 }
 
