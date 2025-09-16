@@ -1045,19 +1045,19 @@ section {
 }
 
 .cyberpunk-details {
-  color: #00e5ff;
+  color: var(--neon-primary, #00ffff); /* Usa a variável, senão fallback pro azul neon */
   font-family: 'Anton', 'Inter', sans-serif;
   font-size: 1.1rem;
   text-align: center;
   margin-top: 16px;
   margin-bottom: 24px;
   letter-spacing: 0.08em;
-  text-shadow: 0 0 8px #00e5ff, 0 0 6px #ff00ea;
+  text-shadow: 0 0 4px var(--neon-primary, #00ffff), 0 0 2px rgba(0,255,255,0.5);
 }
 
 .cyberpunk-details span {
-  color: #ff00ea;
-  text-shadow: 0 0 10px #ff00ea, 0 0 4px #00e5ff;
+  color: var(--neon-secondary, #1de9b6); /* Cor acentuada, próxima ao tom da sua paleta */
+  text-shadow: 0 0 6px var(--neon-secondary, #1de9b6), 0 0 2px var(--neon-primary, #00ffff);
   font-weight: bold;
 }
 
